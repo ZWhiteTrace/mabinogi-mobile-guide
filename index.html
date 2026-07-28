@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>瑪奇 Mobile 台版攻略筆記</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="瑪奇 Mobile 台港澳版攻略筆記：新手、進度規劃、世界王尾刀稱號、符文裝備、生活技能、易漏清單。非官方粉絲整理，每篇附來源與查證日期。">
+  <link rel="stylesheet" href="vendor/vue.css">
+  <style>
+    :root {
+      --theme-color: #6fc287;
+      --bg: #10150f;
+      --surface: #171e15;
+      --surface-2: #1d2619;
+      --text: #d8ddcf;
+      --muted: #93a08a;
+      --accent: #6fc287;
+      --accent-soft: rgba(111, 194, 135, .08);
+      --amber: #d8a960;
+      --border: #2a3424;
+      --font-body: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", -apple-system, sans-serif;
+      --font-display: "Songti TC", "Noto Serif TC", "PingFang TC", serif;
+      --font-mono: "SF Mono", Menlo, Consolas, monospace;
+    }
+
+    html, body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+    }
+    body {
+      background:
+        radial-gradient(1100px 420px at 72% -8%, rgba(111, 194, 135, .07), transparent 70%),
+        var(--bg);
+      background-attachment: fixed;
+    }
+
+    /* ── 側邊欄 ── */
+    .sidebar {
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .sidebar > h1 { margin: 0 auto .5rem; }
+    .sidebar > h1 a {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      letter-spacing: .06em;
+      color: var(--text);
+    }
+    .sidebar ul li a {
+      color: var(--muted);
+      font-size: 14px;
+      border-radius: 6px;
+      padding: 5px 10px;
+      transition: color .15s ease, background .15s ease;
+    }
+    .sidebar ul li a:hover {
+      color: var(--text);
+      background: var(--accent-soft);
+      text-decoration: none;
+    }
+    .sidebar ul li.active > a {
+      color: var(--accent);
+      background: var(--accent-soft);
+      border-right: 0;
+      font-weight: 600;
+    }
+    .sidebar::-webkit-scrollbar { width: 4px; }
+    .sidebar::-webkit-scrollbar-thumb { background: var(--border); }
+    .sidebar-toggle { background: transparent; }
+    .sidebar-toggle span { background-color: var(--accent); }
+
+    /* ── 搜尋框 ── */
+    .search { border-bottom: 1px solid var(--border) !important; }
+    .search input {
+      background: var(--surface-2);
+      color: var(--text);
+      border-radius: 6px;
+      padding: 6px 10px;
+    }
+    .search input::placeholder { color: var(--muted); }
+    .search .results-panel { color: var(--text); }
+    .search .matching-post { border-bottom: 1px solid var(--border); }
+    .search h2 { color: var(--accent); font-size: 15px; }
+
+    /* ── 內文 ── */
+    .content { padding-top: 20px; }
+    .markdown-section {
+      max-width: 52em;
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text);
+      animation: page-in .24s ease-out;
+    }
+    @keyframes page-in {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: none; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .markdown-section { animation: none; }
+    }
+
+    .markdown-section h1, .markdown-section h2,
+    .markdown-section h3, .markdown-section h4 {
+      font-family: var(--font-display);
+      color: var(--text);
+      letter-spacing: .02em;
+      text-wrap: balance;
+    }
+    .markdown-section h1 { font-size: 1.9rem; }
+    .markdown-section h1::after {
+      content: "";
+      display: block;
+      width: 2.2em;
+      height: 2px;
+      margin-top: .45em;
+      background: linear-gradient(90deg, var(--accent), transparent);
+    }
+    .markdown-section h2 {
+      font-size: 1.35rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: .35em;
+      margin-top: 2.2em;
+    }
+    .markdown-section h3 { font-size: 1.1rem; color: var(--accent); }
+
+    .markdown-section p, .markdown-section ul, .markdown-section ol { color: var(--text); }
+    .markdown-section strong { color: var(--amber); font-weight: 600; }
+    .markdown-section a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px dotted rgba(111, 194, 135, .45);
+      transition: border-color .15s ease;
+    }
+    .markdown-section a:hover { border-bottom: 1px solid var(--accent); }
+    .markdown-section a strong { color: var(--accent); }
+
+    .markdown-section blockquote {
+      margin: 1.4em 0;
+      padding: .7em 1.1em;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-left-width: 1px;
+      border-radius: 8px;
+      color: var(--muted);
+    }
+    .markdown-section blockquote p { margin: .3em 0; color: var(--muted); }
+
+    .markdown-section table {
+      display: table;
+      width: 100%;
+      font-size: .92em;
+      border-collapse: collapse;
+    }
+    .markdown-section th {
+      background: var(--surface-2);
+      color: var(--accent);
+      font-family: var(--font-display);
+      letter-spacing: .05em;
+      border: 1px solid var(--border);
+      padding: .5em .8em;
+    }
+    .markdown-section td {
+      border: 1px solid var(--border);
+      padding: .5em .8em;
+    }
+    .markdown-section tr { border: 0; }
+    .markdown-section tr:nth-child(2n) { background: var(--accent-soft); }
+
+    .markdown-section code {
+      background: var(--surface-2);
+      color: var(--amber);
+      font-family: var(--font-mono);
+      font-size: .85em;
+      border-radius: 4px;
+      padding: .15em .45em;
+    }
+    .markdown-section pre {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    .markdown-section pre > code { background: transparent; color: var(--text); }
+
+    .markdown-section hr { border-bottom: 1px solid var(--border); }
+    .markdown-section em { color: var(--muted); }
+
+    .github-corner svg { fill: var(--surface-2); color: var(--accent); }
+
+    @media (max-width: 768px) {
+      .markdown-section { font-size: 14px; }
+      .markdown-section table { display: block; overflow-x: auto; }
+      body.close .sidebar { background: var(--surface); }
+    }
+
+    ::selection { background: rgba(111, 194, 135, .25); }
+  </style>
+</head>
+<body>
+  <div id="app">載入中…</div>
+  <script>
+    window.$docsify = {
+      name: '瑪奇 Mobile 攻略筆記',
+      repo: 'ZWhiteTrace/mabinogi-mobile-guide',
+      homepage: 'index.md',
+      loadSidebar: true,
+      subMaxLevel: 0,
+      relativePath: true,
+      auto2top: true,
+      search: { placeholder: '搜尋筆記', noData: '沒有結果', depth: 2 }
+    }
+  </script>
+  <script src="vendor/docsify.min.js"></script>
+  <script src="vendor/search.min.js"></script>
+</body>
+</html>
