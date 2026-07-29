@@ -2,6 +2,7 @@
 - [新手攻略](/beginner-guide.md)
 - [進度與每日週常](/progression-and-dailies.md)
 - [世界王尾刀稱號](/field-boss-titles.md)
+- [符文取捨速查](/rune-keep-guide.md)
 - [符文與裝備](/runes.md)
 - [生活技能](/life-skills.md)
 - [易漏清單](/missables.md)
