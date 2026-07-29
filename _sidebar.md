@@ -7,4 +7,5 @@
 - [易漏清單](/missables.md)
 - [卡關任務](/quest-stuck-notes.md)
 - [背包與保管箱](/inventory-weight.md)
+- [附魔（未實裝）](/enchants.md)
 - [序號](/coupon-codes.md)
