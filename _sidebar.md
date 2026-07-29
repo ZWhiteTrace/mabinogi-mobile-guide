@@ -9,5 +9,7 @@
 - [冰霜術士 Build](/ice-mage-build.md)
 - [深層地下城](/deep-dungeons.md)
 - [背包與保管箱](/inventory-weight.md)
+- [寶石與印章](/gems-and-seals.md)
+- [8 月台灣夜市活動](/events-2026-08.md)
 - [附魔（未實裝）](/enchants.md)
 - [序號](/coupon-codes.md)
