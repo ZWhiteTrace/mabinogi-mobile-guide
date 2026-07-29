@@ -8,6 +8,7 @@
 - [易漏清單](/missables.md)
 - [卡關任務](/quest-stuck-notes.md)
 - [冰霜術士 Build](/ice-mage-build.md)
+- [戰士 Build](/warrior-build.md)
 - [深層地下城](/deep-dungeons.md)
 - [背包與保管箱](/inventory-weight.md)
 - [寶石與印章](/gems-and-seals.md)
