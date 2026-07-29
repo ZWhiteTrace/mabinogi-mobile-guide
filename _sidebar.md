@@ -10,6 +10,7 @@
 - [冰霜術士 Build](/ice-mage-build.md)
 - [戰士 Build](/warrior-build.md)
 - [深層地下城](/deep-dungeons.md)
+- [金幣與交易所](/economy.md)
 - [背包與保管箱](/inventory-weight.md)
 - [寶石與印章](/gems-and-seals.md)
 - [8 月台灣夜市活動](/events-2026-08.md)
