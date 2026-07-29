@@ -4,11 +4,20 @@
 
 ## 尋找鳥巢（支線，多段）
 
-- 任務 1：堤爾克那、杜加德走廊、杜巴頓都有鳥巢點位
+- 任務 1：堤爾克那、杜加德走廊、杜巴頓都有鳥巢點位（[nacy540 巴哈小屋整理](https://home.gamer.com.tw/artwork.php?sn=6369839)）
 - 任務 2：希德斯特雪原
 - 任務 3：庫漢
-- 影片點位整理：[nacy540 巴哈小屋](https://home.gamer.com.tw/artwork.php?sn=6369839)、[任務2 雪原](https://www.youtube.com/watch?v=_aJADQfcqV8)、[任務3 庫漢](https://www.youtube.com/watch?v=Z3KlaG7fI0Y)
 - 文字版：[巴哈支線攻略串](https://forum.gamer.com.tw/C.php?bsn=32564&snA=626)
+
+**任務 2：希德斯特雪原點位**
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/_aJADQfcqV8" title="鳥巢任務2 希德斯特雪原" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe></div>
+
+**任務 3：庫漢點位**
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/Z3KlaG7fI0Y" title="鳥巢任務3 庫漢" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe></div>
+
+<p class="video-caption">影片由原作者提供，嵌入播放；點擊可前往 YouTube 觀看完整內容。</p>
 
 ## 楓葉瀑布拍照
 

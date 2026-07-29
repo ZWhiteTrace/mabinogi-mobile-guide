@@ -203,6 +203,30 @@
     .markdown-section hr { border-bottom: 1px solid var(--border); }
     .markdown-section em { color: var(--muted); }
 
+    /* 嵌入影片：16:9 響應式 */
+    .video-embed {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      margin: 1.2em 0 .4em;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      background: var(--surface-2);
+    }
+    .video-embed iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .video-caption {
+      color: var(--muted);
+      font-size: .85em;
+      margin-top: -.2em;
+    }
+
     .github-corner svg { fill: var(--surface-2); color: var(--accent); }
 
     @media (max-width: 768px) {
