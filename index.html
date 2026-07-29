@@ -8,18 +8,17 @@
   <link rel="stylesheet" href="vendor/vue.css">
   <style>
     :root {
-      --theme-color: #6fc287;
-      --bg: #10150f;
-      --surface: #171e15;
-      --surface-2: #1d2619;
-      --text: #d8ddcf;
-      --muted: #93a08a;
-      --accent: #6fc287;
-      --accent-soft: rgba(111, 194, 135, .08);
-      --amber: #d8a960;
-      --border: #2a3424;
+      --theme-color: #e0559e;
+      --bg: #121016;
+      --surface: #191622;
+      --surface-2: #1f1b2a;
+      --text: #e6e1ea;
+      --muted: #9c93a8;
+      --accent: #e0559e;
+      --accent-soft: rgba(224, 85, 158, .10);
+      --gold: #e3bd6a;
+      --border: #2d2739;
       --font-body: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", -apple-system, sans-serif;
-      --font-display: "Songti TC", "Noto Serif TC", "PingFang TC", serif;
       --font-mono: "SF Mono", Menlo, Consolas, monospace;
     }
 
@@ -30,7 +29,7 @@
     }
     body {
       background:
-        radial-gradient(1100px 420px at 72% -8%, rgba(111, 194, 135, .07), transparent 70%),
+        radial-gradient(1000px 380px at 75% -10%, rgba(224, 85, 158, .08), transparent 70%),
         var(--bg);
       background-attachment: fixed;
     }
@@ -42,18 +41,18 @@
       color: var(--muted);
       font-size: 14px;
     }
-    .sidebar > h1 { margin: 0 auto .5rem; }
+    .sidebar > h1 { margin: 0 auto .6rem; }
     .sidebar > h1 a {
-      font-family: var(--font-display);
-      font-size: 1.1rem;
-      letter-spacing: .06em;
-      color: var(--text);
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: .1em;
+      color: var(--gold);
     }
     .sidebar ul li a {
       color: var(--muted);
       font-size: 14px;
-      border-radius: 6px;
-      padding: 5px 10px;
+      border-radius: 999px;
+      padding: 5px 12px;
       transition: color .15s ease, background .15s ease;
     }
     .sidebar ul li a:hover {
@@ -77,8 +76,9 @@
     .search input {
       background: var(--surface-2);
       color: var(--text);
-      border-radius: 6px;
-      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 14px;
     }
     .search input::placeholder { color: var(--muted); }
     .search .results-panel { color: var(--text); }
@@ -104,85 +104,101 @@
 
     .markdown-section h1, .markdown-section h2,
     .markdown-section h3, .markdown-section h4 {
-      font-family: var(--font-display);
+      font-weight: 700;
       color: var(--text);
       letter-spacing: .02em;
       text-wrap: balance;
     }
-    .markdown-section h1 { font-size: 1.9rem; }
+    .markdown-section h1 { font-size: 1.75rem; }
     .markdown-section h1::after {
       content: "";
       display: block;
-      width: 2.2em;
-      height: 2px;
-      margin-top: .45em;
-      background: linear-gradient(90deg, var(--accent), transparent);
+      width: 2.4em;
+      height: 3px;
+      border-radius: 2px;
+      margin-top: .5em;
+      background: linear-gradient(90deg, var(--accent), rgba(224, 85, 158, 0));
     }
     .markdown-section h2 {
-      font-size: 1.35rem;
+      font-size: 1.3rem;
       border-bottom: 1px solid var(--border);
       padding-bottom: .35em;
       margin-top: 2.2em;
     }
-    .markdown-section h3 { font-size: 1.1rem; color: var(--accent); }
+    .markdown-section h3 { font-size: 1.05rem; color: var(--accent); }
 
     .markdown-section p, .markdown-section ul, .markdown-section ol { color: var(--text); }
-    .markdown-section strong { color: var(--amber); font-weight: 600; }
+    .markdown-section strong { color: var(--gold); font-weight: 600; }
     .markdown-section a {
       color: var(--accent);
       text-decoration: none;
-      border-bottom: 1px dotted rgba(111, 194, 135, .45);
+      border-bottom: 1px dotted rgba(224, 85, 158, .45);
       transition: border-color .15s ease;
     }
     .markdown-section a:hover { border-bottom: 1px solid var(--accent); }
     .markdown-section a strong { color: var(--accent); }
 
+    /* 引言 → 道具卡風格提示 */
     .markdown-section blockquote {
       margin: 1.4em 0;
-      padding: .7em 1.1em;
-      background: var(--surface-2);
+      padding: .75em 1.15em;
+      background: var(--surface);
       border: 1px solid var(--border);
       border-left-width: 1px;
-      border-radius: 8px;
+      border-radius: 12px;
       color: var(--muted);
     }
     .markdown-section blockquote p { margin: .3em 0; color: var(--muted); }
 
+    /* 表格 → 圓角卡 */
     .markdown-section table {
       display: table;
       width: 100%;
       font-size: .92em;
-      border-collapse: collapse;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
     }
     .markdown-section th {
       background: var(--surface-2);
       color: var(--accent);
-      font-family: var(--font-display);
+      font-weight: 700;
       letter-spacing: .05em;
-      border: 1px solid var(--border);
-      padding: .5em .8em;
+      border: 0;
+      border-bottom: 1px solid var(--border);
+      padding: .55em .85em;
     }
     .markdown-section td {
-      border: 1px solid var(--border);
-      padding: .5em .8em;
+      border: 0;
+      border-bottom: 1px solid var(--border);
+      padding: .55em .85em;
     }
+    .markdown-section tr:last-child td { border-bottom: 0; }
     .markdown-section tr { border: 0; }
     .markdown-section tr:nth-child(2n) { background: var(--accent-soft); }
 
+    /* 行內代碼 → 藥丸標籤 */
     .markdown-section code {
       background: var(--surface-2);
-      color: var(--amber);
+      color: var(--gold);
       font-family: var(--font-mono);
       font-size: .85em;
-      border-radius: 4px;
-      padding: .15em .45em;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: .12em .55em;
     }
     .markdown-section pre {
       background: var(--surface-2);
       border: 1px solid var(--border);
-      border-radius: 8px;
+      border-radius: 12px;
     }
-    .markdown-section pre > code { background: transparent; color: var(--text); }
+    .markdown-section pre > code {
+      background: transparent;
+      border: 0;
+      color: var(--text);
+    }
 
     .markdown-section hr { border-bottom: 1px solid var(--border); }
     .markdown-section em { color: var(--muted); }
@@ -195,7 +211,7 @@
       body.close .sidebar { background: var(--surface); }
     }
 
-    ::selection { background: rgba(111, 194, 135, .25); }
+    ::selection { background: rgba(224, 85, 158, .3); }
   </style>
 </head>
 <body>
