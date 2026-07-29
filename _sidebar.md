@@ -6,6 +6,8 @@
 - [生活技能](/life-skills.md)
 - [易漏清單](/missables.md)
 - [卡關任務](/quest-stuck-notes.md)
+- [冰霜術士 Build](/ice-mage-build.md)
+- [深層地下城](/deep-dungeons.md)
 - [背包與保管箱](/inventory-weight.md)
 - [附魔（未實裝）](/enchants.md)
 - [序號](/coupon-codes.md)
