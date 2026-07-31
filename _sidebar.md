@@ -9,6 +9,7 @@
 - [卡關任務](/quest-stuck-notes.md)
 - [冰霜術士 Build](/ice-mage-build.md)
 - [戰士 Build](/warrior-build.md)
+- [每日內容詳解](/daily-content.md)
 - [深層地下城](/deep-dungeons.md)
 - [副角經營](/alt-characters.md)
 - [魅力與 Stellagram](/charm-stellagram.md)
