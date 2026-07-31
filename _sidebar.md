@@ -12,6 +12,7 @@
 - [深層地下城](/deep-dungeons.md)
 - [副角經營](/alt-characters.md)
 - [魅力與 Stellagram](/charm-stellagram.md)
+- [聖水與黑色團塊](/holy-water-black-mass.md)
 - [金幣與交易所](/economy.md)
 - [背包與保管箱](/inventory-weight.md)
 - [寶石與印章](/gems-and-seals.md)

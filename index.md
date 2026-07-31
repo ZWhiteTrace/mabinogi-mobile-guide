@@ -22,6 +22,7 @@
 | [卡關任務](quest-stuck-notes.md) | 鳥巢、楓葉瀑布、拍照景點 | 2026-07-28 |
 | [副角經營](alt-characters.md) | 共享 vs 獨立資源、多角色六大收益 | 2026-07-31 |
 | [魅力與 Stellagram](charm-stellagram.md) | 五分鐘拿 3000+ 魅力的免費分數 | 2026-07-29 |
+| [聖水與黑色團塊](holy-water-black-mass.md) | 淨化機制與 20 個門檻技巧 | 2026-07-31 |
 | [金幣與交易所](economy.md) | 手續費漏洞、LIFO 機制、賺錢效率排行 | 2026-07-29 |
 | [背包與保管箱](inventory-weight.md) | 重量管理、擴充途徑 | 2026-07-28 |
 | [序號](coupon-codes.md) | 可用兌換碼與兌換方式（時限） | 2026-07-28 |
