@@ -10,6 +10,7 @@
 - [冰霜術士 Build](/ice-mage-build.md)
 - [戰士 Build](/warrior-build.md)
 - [深層地下城](/deep-dungeons.md)
+- [副角經營](/alt-characters.md)
 - [魅力與 Stellagram](/charm-stellagram.md)
 - [金幣與交易所](/economy.md)
 - [背包與保管箱](/inventory-weight.md)
