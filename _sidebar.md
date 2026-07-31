@@ -17,7 +17,7 @@
 - [金幣與交易所](/economy.md)
 - [背包與保管箱](/inventory-weight.md)
 - [寶石與印章](/gems-and-seals.md)
-- [8 月台灣夜市活動](/events-2026-08.md)
+- [愛爾琳夏日冒險祭（含夜市）](/events-2026-08.md)
 - [附魔（未實裝）](/enchants.md)
 - [職業獎章與徽章兌換](/class-medals.md)
 - [韓服 roadmap 與台版預測](/kr-roadmap.md)
