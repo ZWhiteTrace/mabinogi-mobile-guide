@@ -27,4 +27,5 @@
 - [寵物系統](/pets.md)
 - [時裝與染色](/fashion-dye.md)
 - [我的家](/my-home.md)
+- [待驗證清單](/open-questions.md)
 - [序號](/coupon-codes.md)
