@@ -11,6 +11,7 @@
 - [戰士 Build](/warrior-build.md)
 - [每日內容詳解](/daily-content.md)
 - [深層地下城](/deep-dungeons.md)
+- [團隊副本 Raid](/raids.md)
 - [副角經營](/alt-characters.md)
 - [魅力與 Stellagram](/charm-stellagram.md)
 - [聖水與黑色團塊](/holy-water-black-mass.md)
