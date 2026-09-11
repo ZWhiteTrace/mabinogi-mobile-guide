@@ -144,4 +144,4 @@
 來源：
 [1](https://namu.wiki/w/마비노기 모바일/아이템/패션)、[2](https://namu.wiki/w/마비노기 모바일/아이템)、[3](https://namu.wiki/w/마비노기 모바일/평가)、[4](https://www.inven.co.kr/board/mabimo/6366/109)、[5](https://www.inven.co.kr/board/mabimo/6366/399)、[6](https://mabinogi.dev/마비노기-모바일-염색-도우미/)、[7](https://gall.dcinside.com/mgallery/board/view/?id=mabinogimobile&no=1587130)、[8](https://arca.live/b/mabimobile/137124770)、[9](https://gnn.gamer.com.tw/detail.php?sn=308535)、[10](https://www.4gamers.com.tw/news/detail/80782/mabinogi-mobile-tw-showcase-highlights-night-market)、[11](https://hngameguide.com/mabinogi-mobile-taiwan-july22-2026-pre-registration-jobs-life-guide-zh/)
 
-最後查證：2026-07-31
+最後查證：2026-08-09
