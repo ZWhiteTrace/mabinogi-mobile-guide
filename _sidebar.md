@@ -9,6 +9,7 @@
 - [卡關任務](/quest-stuck-notes.md)
 - [冰霜術士 Build](/ice-mage-build.md)
 - [戰士 Build](/warrior-build.md)
+- [9/9 改版衝擊清單](/update-2026-09-09.md)
 - [每日內容詳解](/daily-content.md)
 - [深層地下城](/deep-dungeons.md)
 - [團隊副本 Raid](/raids.md)

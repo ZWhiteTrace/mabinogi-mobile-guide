@@ -48,7 +48,7 @@
 
 - 撿珠子技巧：**PC 版＋手動鏡頭拉遠**好找得多；沒攻略是純大海撈針
 - 部分隱藏任務**依角色等級才顯示**；NPC 位置每人可能不同
-- 韓服後期地區（班霍爾）另有一批，台版還沒到
+- ~~韓服後期地區（班霍爾）另有一批，台版還沒到~~ 🔴 **2026-09-12 作廢：班霍爾＝班克爾（반호르），9/9 已開** → **那批隱藏任務現在可以做**（見 [update-2026-09-09.md](update-2026-09-09.md)）。⚠️ 同一個韓文地名在本庫被寫成兩種譯名，差點漏掉整隻野王
 
 來源：[BlueStacks 隱藏任務地點](https://www.bluestacks.com/ko/blog/game-guides/mabinogi-mobile/mnm-hidden-quest-location-ko.html)、[小鬼珠子位置全圖](https://game.savetip.co.kr/mabinogi-mobile-imp-marble-location-guide/)、[게임톡 達格達之墓攻略](https://www.gametoc.co.kr/news/articleView.html?idxno=90656)、[巴哈 偉大的冒險（老鼠裝）](https://forum.gamer.com.tw/C.php?bsn=32564&snA=712)、[inven 杜巴頓幽靈任務](https://www.inven.co.kr/board/mabimo/6366/604)
 
