@@ -10,6 +10,7 @@
 - [冰霜術士 Build](/ice-mage-build.md)
 - [戰士 Build](/warrior-build.md)
 - [大劍戰士 Build](/greatsword-build.md)
+- [祭司 Build](/priest-build.md)
 - [9/9 改版衝擊清單](/update-2026-09-09.md)
 - [每日內容詳解](/daily-content.md)
 - [深層地下城](/deep-dungeons.md)
