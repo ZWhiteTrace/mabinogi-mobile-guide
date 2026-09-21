@@ -25,7 +25,18 @@
 | 深淵「地獄 1」 | 2025-05-12 | **2026-08-10** | 455 天 |
 | **格里斯貝恩（困難）** | 2025-05-19 | **2026-08-17** | 455 天 |
 
-→ **落差約 455–482 天且在縮小**，但只有五個資料點，不保證持續縮小。
+→ **落差約 455–482 天且在縮小**，但只有五個資料點，不保證持續縮小。⚠️ **這個區間只適用於「內容」**（副本／難度階）——平衡調整快得多，見下方 2026-09-21 那條（55 天）。
+
+🔴🔴 **2026-09-21 再補一個反例，而且落差更小：符文平衡調整只差 55 天。**
+
+韓服 **2025-07-16** 改「절단（截斷）」符文（移除持續傷害 → 迴旋斬最多可用 2 次、CD 與傷害一起增加），台版 **2026-09-09** 的更新日誌記著同一條（「大劍『截斷』符文變兩發」）。
+
+⇒ **落差 55 天，不是 455–482 天。** 而且這條更狠：**內容**（副本、難度階）落差以年計，**平衡調整**卻可能只差兩個月。
+
+🔑 **對查證的意義**：
+- 「台版 ≈ 韓服 Season 0」這個框架**只對符文池與內容成立**——本帳確認台版沒有 봉쇄／광전사／무자비 那批 S2 符文，但**已經吃到 S2 期的平衡調整**
+- ⇒ 查韓服資料時**要看那份資料的日期**。2026-09-21 實測：搜尋大劍符文一直命中 2025 年 4–9 月的 S0 內容，而那批的結論（旋轉必須）**韓服自己在 S2 已經改掉了**
+- ⚠️ **這與「韓服對機制可靠」那條規則疊在一起特別危險**：舊的韓服資料讀起來跟新的一樣權威，而它描述的是一個台版已經跨過去的版本
 
 🔴 **2026-09-12 補一個反例：台版不是線性追趕。**韓服 2026-03-27（一週年）那批裡的新深層地下城「**바리 2광구**」，台版 **2026-09-09 就開了**（落差僅 166 天）——但台版開的是**一般／困難兩階**，韓服那個是**深層階**。→ **同一個地名會被拆成不同難度階段分批實裝**，所以「拿韓服某內容的上線日 +455~482」只適用於整包內容，**不適用於單一系統或單一難度階**。對方註明台服日期是**逐列核對 Nexon 台灣官方維護公告**，韓服日期是韓國社群／媒體紀錄（信心度中等）。
 
@@ -201,4 +212,5 @@
 來源：
 [1](https://namu.wiki/w/%EB%A7%88%EB%B9%84%EB%85%B8%EA%B8%B0%20%EB%AA%A8%EB%B0%94%EC%9D%BC)、[2](https://namu.wiki/w/%EB%A7%88%EB%B9%84%EB%85%B8%EA%B8%B0%20%EB%AA%A8%EB%B0%94%EC%9D%BC/%EC%9D%B8%EA%B2%8C%EC%9E%84%20%EC%A0%95%EB%B3%B4)、[3](https://namu.wiki/w/%EB%A7%88%EB%B9%84%EB%85%B8%EA%B8%B0%20%EB%AA%A8%EB%B0%94%EC%9D%BC/%ED%81%B4%EB%9E%98%EC%8A%A4)、[4](https://www.inven.co.kr/board/mabimo/6366/577?vtype=pc)、[5](https://www.gameple.co.kr/news/articleView.html?idxno=214834)、[6](https://news.nate.com/view/20260115n22854)、[7](https://news.nate.com/view/20260423n30770)、[8](https://www.betanews.net/article/view/beta202604230077)、[9](https://news.nate.com/view/20250430n42898)、[10](https://m.ruliweb.com/news/board/1004/read/2274044)、[11](https://namu.wiki/w/%EC%9D%B4%EB%A9%98%EB%A7%88%ED%95%98(%EB%A7%88%EB%B9%84%EB%85%B8%EA%B8%B0%20%EB%AA%A8%EB%B0%94%EC%9D%BC))、[12](https://www.gamemeca.com/view.php?gid=1762002)、[13](https://m.inven.co.kr/webzine/wznews.php?idx=310432&iskin=black)、[14](https://www.betanews.net/article/view/beta202511140047)、[15](https://www.betanews.net/article/view/beta202602120098)、[16](https://www.gamevu.co.kr/news/articleView.html?idxno=58840)、[17](https://zdnet.co.kr/view/?no=20260619202534)、[18](https://www.gamemeca.com/en/view.php?gid=1777058)、[19](https://m.inven.co.kr/webzine/wznews.php?idx=312838&site=to)、[20](https://mabitw-tracker.pages.dev/jobs)、[21](https://mabitw-tracker.pages.dev/)、[22](https://zdnet.co.kr/view/?no=20260528095001)、[23](https://gnn.gamer.com.tw/detail.php?sn=308535)
 
+最後查證：2026-09-21（🔴 **補平衡調整的落差反例：截斷符文韓服 2025-07-16 改、台版 2026-09-09 到，只差 55 天**——內容落差以年計、平衡調整只差兩個月。⇒「台版 ≈ 韓服 S0」只對符文池與內容成立，台版**已經吃到 S2 期的平衡調整**；查韓服資料要看日期）
 最後查證：2026-07-31
